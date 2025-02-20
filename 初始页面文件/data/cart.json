@@ -1,0 +1,21 @@
+{
+    "status":0,
+    "message":"success",
+    "result":{
+        "totalHoney":59,
+        "list":[
+            "name":"面具1",
+            "price"19,
+            "count":1,
+            "total":19,
+            "id":1,
+            "imgUrl":"http://img.com/1.jpg",
+            "gifts":[
+                {
+                    "parId":"22445927",
+                }
+            ]
+1,
+            
+        ]    
+}

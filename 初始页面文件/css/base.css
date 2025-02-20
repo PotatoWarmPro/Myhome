@@ -1,0 +1,200 @@
+/*base*/
+*,/*通配选择器,匹配所有元素*/
+*::before,
+*::after{
+    box-sizing: border-box;/*样式应用到所有元素上*/
+}
+
+html,
+body{
+    overflow-x: hidden;
+}
+html{
+    font-family: sans-serif; /*无衬字体  sans-serif表示没有装饰性的线条(衬线)*/
+    font-size: 100%;
+    -ms-text-size-adjust: 100%;/*微软浏览器css属性,设置文本属性为100%,控制文本在移动端缩放行为*/
+    -webkit-text-size-adjust: 100%;/*webkit浏览器css属性,设置文本属性为100%,控制文本在移动端缩放行为*/
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+ul,ol{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+div,p,dl,dt,dd{
+    margin: 0;  
+    padding: 0;
+}
+
+li,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hgroup,/*定义文档中的标题组,标签在HTML5中被移除,不推荐使用*/
+p,
+blockquote,/*定义文档中的应用块*/
+figure,/*常用于将内容从文档的主要流程中分离出来,以便单独引用或展示*/
+form,/*创建表单*/
+fieldset,/*对表单中的元素进行分组,并在这些元素周围创建一个可选的标题(legend)*/
+input,/*创建各种类型的输入控件*/
+legend,/*给fieldest元素提供一个标题*/
+input,/*输入控件*/
+legend,
+pre,
+abbr,/*定义缩写词或者字母缩略词*/
+button{
+    margin:0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{font-weight: normal;}
+
+pre,/*预格式化的文本,保留文本中的空格和换行符*/
+code,
+address,
+caption,/*定义表格的标题*/
+th,
+figcaption{/**定义图像的标题*/
+    font-size:1em;
+    font-weight: normal;
+    font-style: normal;
+}
+fieldset,/*通常用于对表单中的元素进行分组,并可以添加一个标题(通过legend标签)*/
+iframe,/*定义内嵌的网页*/
+img{
+    border: 0;
+}
+
+caption,/*定义表格标题或说明性文字<caption>常跟在<table>标签后面*/
+th{
+    text-align: left;
+}
+
+table{
+    border-collapse: collapse;/*设置表格的边框模型,将表格边框合并成一个单一的边框*/
+    border-spacing: 0;/*设置表格边框之间的间距*/
+}
+
+article,
+aside,
+footer,
+header,
+nav,
+main,
+section,
+summary,/*定义文档的不同部分,如文章、侧边栏、页脚、页眉、导航、主要内容、摘要*/
+details,/*展开和折叠内容*/
+figure,
+figcaption{
+    display: block;
+}
+
+audio,
+canvas,/*绘制图形*/
+video,
+progress{
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+button{
+    background: none;
+    border: 0;
+    box-sizing: border-box;
+    color: inherit; /*让元素继承父元素的颜色*/
+    cursor: pointer;/*用户可以点击鼠标指针*/
+    font: inherit;
+    line-height: inherit;
+    overflow: visible;/*超出自身尺寸,超出部分将会显示出来*/
+    vertical-align: inherit;/*垂直对齐方式*/
+}
+
+button:disabled{
+    cursor: default;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+a:active,
+a:hover{
+    outline: 0;
+}
+
+h1{
+    font-size: 2em;
+}
+
+img{
+    border: 0;
+}
+
+[hidden]{
+    display: none;
+}
+
+.nobr{
+    white-space: nowrap;
+}
+
+i,
+em,
+code{
+    font-style: normal;
+}
+
+b,
+strong{
+font-weight:blod;}
+
+sub,
+sup{
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+sup{
+    top: -0.5em;    
+}
+
+button,
+input,
+select,
+textarea{
+    font-family: inherit;
+    font-size: 100%;
+    margin:0;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus,button :active{
+    outline: none;
+}
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}

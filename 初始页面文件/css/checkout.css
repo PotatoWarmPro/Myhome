@@ -2,7 +2,7 @@
 .check-step {
   padding: 5px 0; }
   .check-step ul {
-    display: -ms-flexbox;
+    display: -ms-flexbox;/*用于兼容旧版IE浏览器*/
     display: flex;
     margin: 25px 0 50px 0; }
     .check-step ul:after {
@@ -30,7 +30,7 @@
       content: "";
       width: 14px;
       height: 14px;
-      border-radius: 50%;
+      border-radius: 50%;/*radius属性是接收一个或多个值，用于定义元素的圆角大小*/
       background: #ccc; }
     .check-step li.cur {
       border-color: #EE7A23;
@@ -44,10 +44,10 @@
   .check-step li {
     font-size: 12px; } }
 
-.addr-list ul:after {
+.addr-list ul:after {/*:after 伪元素*/
   visibility: hidden;
-  display: block;
-  content: " ";
+  display: block;/*将元素设置为块元素*/
+  content: " ";/*:after 伪元素添加内容*/
   clear: both; }
 
 .addr-list li {
@@ -127,7 +127,7 @@
   margin-top: 10px;
   text-align: center; }
 
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 991px) {/*@media为媒体查询 屏幕宽度小于991px时*/
   .addr-list {
     padding: 0 10px; }
     .addr-list li {

@@ -5,46 +5,48 @@
       {
         "addressId":"100001",
         "userName":"JackBean",
-        "streetName":"长沙市芙蓉区文化大厦1",
-        "postCode":"100001",
+        "streetName":"湖南省长沙市芙蓉区文化大厦1",
+        "postCode":"41000",
         "tel":"12345678901",
         "isDefault":true
       },
       {
         "addressId":"100002",
-        "streetName":"长沙市芙蓉区文化大厦2",
-        "postCode":"100001",
+        "userName":"sanerfang",
+        "streetName":"湖南省长沙市芙蓉区文化大厦2",
+        "postCode":"41000",
         "tel":"12345678901",
         "isDefault":false
       },
-      
+      {
         "addressId":"100003",
         "userName":"WangZi",
-        "streetName":"长沙市芙蓉区文化大厦3",
-        "postCode":"100001",
+        "streetName":"湖南省长沙市芙蓉区文化大厦3",
+        "postCode":"41000",
         "tel":"12345678901",
         "isDefault":false
       },
       {
         "addressId":"100004",
-        "streetName":"长沙市芙蓉区文化大厦4",
-        "postCode":"100001",
+        "userName":"XiaoShenYang",
+        "streetName":"湖南省长沙市芙蓉区文化大厦4",
+        "postCode":"41000",
         "tel":"12345678901",
         "isDefault":false
       },
       {
         "addressId":"100005",
-        "streetName":"长沙市芙蓉区文化大厦5",
-        "streetName":"北京市朝阳区朝阳公园5",
-        "postCode":"100001",
+        "userName":"JsdBo",
+        "streetName":"湖南省长沙市芙蓉区文化大厦5",
+        "postCode":"41000",
         "tel":"12345678901",
         "isDefault":false
       },
       {
         "addressId":"100006",
         "userName":"ZhenDe",
-        "streetName":"北京市朝阳区朝阳公园6",
-        "postCode":"100001",
+        "streetName":"湖南省长沙市芙蓉区文化大厦6",
+        "postCode":"41000",
         "tel":"12345678901",
         "isDefault":false
       }

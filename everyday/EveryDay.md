@@ -41,5 +41,8 @@ vscode快捷键：
 命令行运行时需要注意的事项：
 默认设置是windows powershell，shell跟cmd有一定的差异。
 
+npm install -g rimraf   // 先进行全局安装
+
+rimraf node_modules   // 进行删除    
 
 2025年2月26日 星期三 
